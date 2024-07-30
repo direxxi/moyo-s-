@@ -1,0 +1,104 @@
+body{
+    background-color: white;
+}
+.two{
+    width: 100%;
+    height: 1160px;
+}
+.featured_courses{
+    width: 100%;
+    margin-top: 70px;
+}
+.featured_courses h2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.featured_courses p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-title {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.course-rating {
+    background-color: #ffd700;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.course-lecturer, .course-price {
+    margin: 10px 0;
+}
+
+.add-to-cart-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(26, 163, 232);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add-to-cart-btn:hover{
+    background-color: rgb(26, 163, 232);
+    color: white;
+    transition: .4s;
+}
+.browse{
+    background-color: rgb(26, 163, 232);
+    color: white;
+    border: 1px solid rgb(26, 163, 232);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  position: relative;
+  left: 600px;
+  top: 80px;
+}
